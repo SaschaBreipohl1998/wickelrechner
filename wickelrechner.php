@@ -3,7 +3,7 @@ defined( 'ABSPATH' ) or die( 'Kein direkter Zugriff erlaubt.' );
  
 /**
  * Plugin Name:       Wickelrechner
- * Description:       Ein Wickelrechner welcher mit dem Shortcode [wickelrechner] eingebunden werden kann. Exklusiv für Schäper Steuerungsservice programmiert - Eine Weitergabe an Dritte ist untersagt!
+ * Description:       Ein Wickelrechner welcher mit dem Shortcode [wickelrechner] eingebunden werden kann.
  * Version:           1.0.0
  * Author:            Sascha Breipohl
  * Author URI:        mailto:sascha@breipohl.net
@@ -14,7 +14,7 @@ function wickelrechner_shortcode() {
 ob_start();
 ?>
 <!-- START WICKELRECHNER PLUGIN -->
-<!-- Programmiert von Sascha Breipohl EXKLUSIV für Schäper Steuerungsservice GmbH & Co. KG - Weitergabe untersagt -->
+<!-- Programmiert von Sascha Breipohl -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.bundle.min.js"></script>
 <?php if (!isset($_POST['wickelrechner']) or $_POST['wickelrechner'] == "show_form") { ?>
 <form method="post">
